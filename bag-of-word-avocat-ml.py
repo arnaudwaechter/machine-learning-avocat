@@ -58,7 +58,7 @@ def stacker( csv_file ):
 #########################################################################################
 
 # import some data to play with
-csv_file = pa.read_csv('./q4a_ai.csv', index_col='id') 
+csv_file = pa.read_csv('../data/q4a_ai.csv', index_col='id') 
 
 # call the stacker
 name,X,y = stacker( csv_file )
